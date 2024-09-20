@@ -17,11 +17,11 @@ export function BackgroundBeamsDemo() {
 
     return (
     <div className="h-[40rem] w-full rounded-md bg-neutral-950 flex antialiased">
-        <div className="max-w-4xl mx-auto p-4 flex flex-col items-center">
+        <div className="max-w-4xl mx-auto p-4 flex flex-col items-center ">
         <CoverDemo />
         {showTextGenerateEffect && (
           <div className="text-center mt-4">
-            <TextGenerateEffectDemo />
+            <TextGenerateEffectDemo words={"Coming soon ..."}/>
           </div>
         )}
         </div>
